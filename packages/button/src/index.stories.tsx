@@ -25,7 +25,7 @@ export const Default: Story = {
 	args: {
 		isDestructive: false,
 		isWide: false,
-		label: 'My Button',
+		label: 'Some Button',
 		onClick: () => alert('onClick fired'),
 		opensNewTab: false,
 		size: 'medium',
