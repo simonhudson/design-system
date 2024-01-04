@@ -23,7 +23,7 @@ export const palette: Palette = {
 		bodyText: '#5d5d5d',
 		black: '#333',
 		white: '#fff',
-		grey: '#707070',
+		grey: '#bbb',
 		lightGrey: '#f9f9f9',
 	},
 	status: {
