@@ -1,7 +1,7 @@
 import { MouseEvent, ReactNode } from 'react';
 import { StyledButtonRow, StyledButton } from './index.styles';
 
-export interface ButtonProps {
+export type ButtonProps = {
 	href?: string;
 	isDestructive?: boolean;
 	isWide?: boolean;
@@ -10,7 +10,7 @@ export interface ButtonProps {
 	opensNewTab?: boolean;
 	size?: 'small' | 'medium' | 'large' | 'x-large';
 	variant?: 'primary' | 'secondary' | 'tertiary';
-}
+};
 
 export const Button = ({
 	href,

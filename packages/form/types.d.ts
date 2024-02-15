@@ -1,9 +1,9 @@
-export interface FormFieldProps {
+export type FormFieldProps = {
 	errorText?: string;
 	id: string;
 	isInvalid?: boolean;
 	label: string;
-	onChange?: Function;
+	onChange?: () => void;
 	required?: boolean;
 	value?: string;
-}
+};
